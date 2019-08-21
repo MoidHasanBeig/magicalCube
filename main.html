@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      </head>
+  <body id="bodyFormat">
+    <table id="tableFormat">
+      <tbody style>
+        <tr>
+          <td class="cellFormat">1</td>
+          <td class="cellFormat">2</td>
+          <td class="cellFormat">3</td>
+          <td class="cellFormat">4</td>
+        </tr>
+        <tr>
+          <td class="cellFormat">5</td>
+          <td class="cellFormat">6</td>
+          <td class="cellFormat">7</td>
+          <td class="cellFormat">8</td>
+        </tr>
+        <tr>
+          <td class="cellFormat">9</td>
+          <td class="cellFormat">10</td>
+          <td class="cellFormat">11</td>
+          <td class="cellFormat">12</td>
+        </tr>
+        <tr>
+          <td class="cellFormat">13</td>
+          <td class="cellFormat">14</td>
+          <td class="cellFormat">15</td>
+          <td class="cellFormat">16</td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="buttonFormat">
+<input type="button" name="Start" value="Start" id="startButton">
+<input type="button" name="Stop" value="Stop" id="stopButton">
+</div>
+  </body>
+  <script>
+  let colArr=["16BAC5","5FBFF9","EFE9F4","171D1C","5863F8","FFB86F","E0CA3C","BA5C12","3E2F5B","261132","17255A","D88373","BD1E1E","3C3C3C","087E8B","C1839F"];
+  let boxes= document.querySelectorAll("td");
+    console.log(boxes)
+const abc = ()=>{
+  console.log("test")
+}
+
+  document.getElementById("startButton").addEventListener("click", abc);
+  </script>
+</html>

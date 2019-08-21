@@ -1,0 +1,30 @@
+#tableFormat
+{
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+  top: 50%;
+}
+#buttonFormat
+{
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+#bodyFormat
+{
+  position: relative;
+  top: 50%;
+}
+.cellFormat
+{
+  padding: 20px;
+}
+#startButton
+{
+margin: 20px;
+}
+#stopButton
+{
+margin: 20px;
+}
